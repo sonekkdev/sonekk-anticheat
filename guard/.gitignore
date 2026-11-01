@@ -1,9 +1,0 @@
-native/build/
-native/build-android/
-node_modules/
-*.o
-*.a
-*.so
-.vs/
-.idea/
-*.log
