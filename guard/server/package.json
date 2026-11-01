@@ -1,0 +1,14 @@
+{
+  "name": "sonekk-guard-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reference report endpoint for Sonekk Guard. Scores signed reports and returns a verdict.",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/guard.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

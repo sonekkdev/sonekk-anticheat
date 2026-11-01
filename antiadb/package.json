@@ -1,0 +1,1 @@
+﻿{"name":"sonekk-antiadb4","version":"0.1.0","type":"module","license":"SEE LICENSE IN LICENSE","scripts":{"test":"node --test test/watch.test.js"},"engines":{"node":">=18"}}

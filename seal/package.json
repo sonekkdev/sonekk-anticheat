@@ -1,0 +1,1 @@
+﻿{"name":"sonekk-seal3","version":"0.1.0","type":"module","license":"SEE LICENSE IN LICENSE","bin":{"sonekk-seal":"src/cli.js"},"description":"Manifest based APK integrity check for standalone VR fan games.","scripts":{"test":"node --test test/seal.test.js"},"engines":{"node":">=18"}}

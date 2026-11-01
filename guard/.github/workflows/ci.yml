@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  native:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Configure
+        run: cmake -S native -B native/build -A x64
+      - name: Build
+        run: cmake --build native/build --config Release
+      - name: Test
+        run: ctest --test-dir native/build -C Release --output-on-failure
+
+  server:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+      - name: Test
+        run: node --test server/test/guard.test.js

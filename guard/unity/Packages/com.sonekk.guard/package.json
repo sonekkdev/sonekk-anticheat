@@ -1,0 +1,10 @@
+{
+  "name": "com.sonekk.guard",
+  "version": "0.1.0",
+  "displayName": "Sonekk Guard",
+  "description": "Free standalone VR anti-cheat for small studios. Detects root, Frida, debuggers and code hooks, then lets your server decide.",
+  "unity": "2021.3",
+  "author": { "name": "sonekkdev", "url": "https://github.com/sonekkdev" },
+  "keywords": ["anti-cheat", "security", "quest", "vr", "android"],
+  "license": "SEE LICENSE IN LICENSE.md"
+}

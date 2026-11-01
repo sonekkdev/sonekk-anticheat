@@ -1,0 +1,15 @@
+{
+  "name": "sonekk-anticheat",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Device integrity, movement validation, APK integrity and ADB activity detection for standalone VR games.",
+  "scripts": {
+    "test": "node run-tests.mjs",
+    "test:guard": "node --test guard/server/test/guard.test.js",
+    "test:motion": "node --test motion/test/movement.test.js",
+    "test:seal": "node --test seal/test/seal.test.js",
+    "test:antiadb": "node --test antiadb/test/watch.test.js"
+  },
+  "engines": { "node": ">=18" }
+}
